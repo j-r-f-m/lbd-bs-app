@@ -30,11 +30,12 @@ function App() {
       {/* test change -> can be deleted any time */}
       <MathJaxContext version={3} config={config}>
         <Navigation />
-        <Routes>
+        {/*         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/balkenBewehrung" element={<BeamReinforcement />} />
           <Route path="/anchorageLength" element={<AnchorageLength />} />
-        </Routes>
+        </Routes> */}
+        <AnchorageLength />
       </MathJaxContext>
     </>
   );
