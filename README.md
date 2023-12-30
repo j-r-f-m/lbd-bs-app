@@ -4,4 +4,4 @@ Eine Frontend-Anwendung mit der sich sich die Ersatzverankerungslänge nach EC2 
 
 ### Zugang
 
-Das Projekt wird auf Netlify gehostet und ist über folgenden Link verfügbar.
+Das Projekt wird auf Netlify gehostet und ist über folgenden **[Link](https://monumental-tiramisu-f22f40.netlify.app/)** verfügbar.
