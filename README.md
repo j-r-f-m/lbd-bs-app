@@ -1,6 +1,6 @@
 # Ersatzverankerungslänge-App
 
-Eine Frontend-Anwendung mit der sich sich die Ersatzverankerungslänge nach EC2 berechnen lässt.
+Eine Frontend-Anwendung mit der sich die Ersatzverankerungslänge nach EC2 berechnen lässt.
 
 ### Zugang
 
@@ -10,11 +10,11 @@ Das Projekt wird auf Netlify gehostet und ist über folgenden **[Link](https://m
 
 Ziel war es, eine Anwendung zu entwickeln, welche die Ermittlung der Verankerungslänge automatisiert. Damit das Programm auf möglichst vielen Endgeräten genutzt werden kann, wurde eine Web-Anwendung entwickelt. Dabei sollte der Umgang mit folgenden Technologien vertieft werden:
 
-- Verwendeung der **[React](https://monumental-tiramisu-f22f40.netlify.app/)** JavaScript Bibliothek
+- Verwendeung der **[React](https://react.dev/)** JavaScript Bibliothek
 - Verwendung von React-State mit einem State-Objekt
 - Verwendung von **[Vite](https://vitejs.dev/)** als Entwickungsumgebung
 - Verwendung von **[Vitetest](https://https://vitest.dev/)** als Testumgebung
-- Verwendung von **[React-Bootstrap](https://https://vitest.dev/)** zur Formattierung des Layouts und zur Gestaltung der Benutzeroberfläche
+- Verwendung von **[React-Bootstrap](https://react-bootstrap.netlify.app/)** zur Formattierung des Layouts und zur Gestaltung der Benutzeroberfläche
 
 ### Funktionen
 
@@ -37,4 +37,4 @@ Während der Konzeptionsphase stellte sich heraus, dass es zwei grundlegende Pro
 
 Druckfunkion
 
-- Um Das Berechnungsprotokoll in eine statische Dokumentation integrieren zu können, wird eine Druckfunktion Benötigt. Es soll in zukunft möglich sein, das Berechnungsprotokoll als PDF zu drucken.
+- Um Das Berechnungsprotokoll in eine statische Dokumentation integrieren zu können, wird eine Druckfunktion Benötigt. Es soll daher in zukunft möglich sein, das Berechnungsprotokoll als PDF zu drucken.
