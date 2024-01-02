@@ -23,12 +23,12 @@ Die Anwendung besteht aus einer Internetseite mit folgenden Funktionen:
 - Es lässt sich die Ersatzverankerungslänge nach EC2 berechnen
 - Mit Hilfe eines Berechnungsprotokolls können die einzelnen Kalkulationen nachvollzogen werden
 - Die verwendeten Formeln sind übersichtlich dargestellt
-- Die benötigen Beiwerte der Verankerungsart und der Verbundbedingung können den entpsrechenden Tabellen entnommen werden
+- Die benötigen Beiwerte der Verankerungsart und der Verbundbedingung werden gezeigt
 
 ### Herausforderung
 
 Während der Konzeptionsphase stellte sich heraus, dass es zwei grundlegende Probleme zu lösen galt.
 
-1. Es musste ein Interface-Layout entwickelt werden welches intuitiv ist, aber auch die Darstellung von unterschiedlichsten Infromationen erlaubt. Durch das verwenden von einklappbaren Layout-Elementen konnte dies erreicht werden. Somit ist es möglich nur diejenigen Layout-Elemente einzublenden, welche gerade von Interesse sind. Des Weiteren stellte die Darstellung von Zahlen und mathematischen Symbolen eine Herausforderung dar.
+1. Es musste ein Interface-Layout entwickelt werden welches intuitiv ist, aber auch die Darstellung von unterschiedlichsten Infromationen erlaubt. Durch das verwenden von einklappbaren Layout-Elementen konnte dies erreicht werden. Somit ist es möglich nur diejenigen Layout-Elemente einzublenden, welche gerade von Interesse sind. Des Weiteren stellte die Darstellung von Zahlen und mathematischen Symbolen eine Herausforderung dar. Durch die Verwendung der MathJax JavaScript-Bibliothek konnte LaTex in die Webanwendung integriert werden, um Zahlen und Symbole ansprechend darzustellen.
 
-Die zweite Herausforderung war die Darstellung von Zahlen uns mathematischen Symbolen.
+2. Da die Anwendung ein Berechnungsprogramm ist, mussten die einzelen Formeln sorgfältig umgesetzt werden. Die einzelnen mathematischen Ausdrücke wurden als **["Reine Funktionen"](https://en.wikipedia.org/wiki/Pure_function)** implementiert, um sie besser testen zu können. Durch die Verwendung von "Reinen Funktionen" lassen sich die Implementierungen der Formeln mit Unit-Tests verifizieren.
