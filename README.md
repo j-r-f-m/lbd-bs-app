@@ -18,10 +18,17 @@ Ziel war es, eine Anwendung zu entwickeln, welche die Ermittlung der Verankerung
 
 ### Funktionen
 
+Die Anwendung besteht aus einer Internetseite mit folgenden Funktionen:
+
+- Es lässt sich die Ersatzverankerungslänge nach EC2 berechnen
+- Mit Hilfe eines Berechnungsprotokolls können die einzelnen Kalkulationen nachvollzogen werden
+- Die verwendeten Formeln sind übersichtlich dargestellt
+- Die benötigen Beiwerte der Verankerungsart und der Verbundbedingung können den entpsrechenden Tabellen entnommen werden
+
 ### Herausforderung
 
 Während der Konzeptionsphase stellte sich heraus, dass es zwei grundlegende Probleme zu lösen galt.
 
-1. Es musste ein Interface-Layout gefunden werden welches intuitiv ist, aber auch die Darstellung von unterschiedlichsten Infromationen erlaubt. Durch das verwenden von einklappbaren Layout-Elementen konnte dies erreicht werden. Somit ist es möglich nur diejenigen Layout-Elemente einzublenden, welche gerade von interesse sind. Des Weiteren stellte die Darstellung von Zahlen und mathematischen Symbolen eine Herausforderung dar.
+1. Es musste ein Interface-Layout entwickelt werden welches intuitiv ist, aber auch die Darstellung von unterschiedlichsten Infromationen erlaubt. Durch das verwenden von einklappbaren Layout-Elementen konnte dies erreicht werden. Somit ist es möglich nur diejenigen Layout-Elemente einzublenden, welche gerade von Interesse sind. Des Weiteren stellte die Darstellung von Zahlen und mathematischen Symbolen eine Herausforderung dar.
 
 Die zweite Herausforderung war die Darstellung von Zahlen uns mathematischen Symbolen.
